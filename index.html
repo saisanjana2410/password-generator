@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Generate a random password</h1>
+    <h4>Never use an insecure password again.</h4>
+    <div id="password-length-container">
+        <label for="password-length-el">
+            Password Length:
+        </label>
+        <input type="number" id="password-length-el">
+    </div>
+    <div id="options-container">
+        <label>
+            <input type="checkbox" id="upper-case" checked>
+            Uppercase
+        </label>
+    
+        <label>
+            <input type="checkbox" id="numbers" checked>
+            Numbers
+        </label>
+    
+        <label>
+            <input type="checkbox" id="symbols" checked>
+            Symbols
+        </label>
+    </div>
+    <button onclick="generatePassword()">Generate passwords</button>
+    <div id="password-container" id="box1">
+        <div class="password-box hidden" id="box1">
+            <p class="password-output" id="password1-el"></p>
+            <button class="copy-btn" id="copy1">📋</button>
+        </div>
+    
+        <div class="password-box hidden" id="box2">
+            <p class="password-output" id="password2-el"></p>
+            <button class="copy-btn" id="copy2">📋</button>
+        </div>
+    </div>
+    <div id="toast">Copied!</div>
+    <script src="./script.js"></script>
+</body>
+</html>

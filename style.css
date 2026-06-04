@@ -1,0 +1,119 @@
+body{
+    background-color: #0F172A;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #94A3B8;
+}
+h1{
+    color: #F8FAFC;
+    font-weight: bold;
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+#password-length-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 15px 0px;
+}
+label{
+    color: #E2E8F0;;
+    margin: 0px 10px;
+}
+#password-length-el{
+    background-color: #334155;
+    color: #E2E8F0;
+    border: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 4px
+}
+#options-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px;
+    color: #E2E8F0;
+}
+
+#options-container label {
+    font-size: 14px;
+    cursor: pointer;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    background-color: #3B82F6;
+    color: #F8FAFC;
+}
+#password-container{
+    margin: 20px;
+    border-top: 2px solid #1E293B;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.password-box {
+    width: 350px;
+    background-color: #1E293B;
+    margin: 10px auto;
+    padding: 8px 10px;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #94A3B8;
+    transition: 0.2s;
+}
+
+.copy-btn:hover {
+    color: #22D3EE;
+    transform: scale(1.1);
+}
+.password-output {
+    margin: 10px;
+    background-color: #1E293B;
+    color: #22D3EE;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.hidden {
+    display: none;
+}
+
+#toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background-color: #1E293B;
+    color: #22D3EE;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-10px);
+}
