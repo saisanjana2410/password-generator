@@ -65,6 +65,8 @@ password-generator/
 ├── script.js
 └── README.md
 
+---
+
 ## 🎯 What I Learned
 
 - DOM manipulation using JavaScript  
@@ -76,6 +78,8 @@ password-generator/
 - Creating and managing UI state dynamically  
 - Building a complete interactive web application  
 - Structuring a real-world frontend project  
+
+---
 
 ## 👩‍💻 Author
 Sai Sanjana Kambalapally
