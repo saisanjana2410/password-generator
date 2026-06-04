@@ -67,7 +67,7 @@ password-generator/
 
 ---
 
-## 🎯 What I Learned
+## 🎯 **What I Learned**
 
 - DOM manipulation using JavaScript  
 - Handling user input from forms  
@@ -81,5 +81,6 @@ password-generator/
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 **Author**
+
 Sai Sanjana Kambalapally
