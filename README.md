@@ -69,15 +69,15 @@ password-generator/
 ---
 
 ## 🎯 What I Learned
-*DOM manipulation using JavaScript
-*Handling user input from forms
-*Working with arrays and random selection logic
-*Using conditional statements effectively
-*Event handling and button interactions
-*Clipboard API for copy functionality
-*Creating and managing UI state dynamically
-*Building a complete interactive web application
-*Structuring a real-world frontend project
+- DOM manipulation using JavaScript
+- Handling user input from forms
+- Working with arrays and random selection logic
+- Using conditional statements effectively
+- Event handling and button interactions
+- Clipboard API for copy functionality
+- Creating and managing UI state dynamically
+- Building a complete interactive web application
+- Structuring a real-world frontend project
 
 ---
 
